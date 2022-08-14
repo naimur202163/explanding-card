@@ -1,7 +1,9 @@
 const panel=document.querySelectorAll('.panel');
 
 panel.forEach((panel)=>{
-console.log(panel)
+    panel.addEventListener('click',()=>{
+        panel.classList.add('active')
+    })
 })
 
 // console.log(panel)
