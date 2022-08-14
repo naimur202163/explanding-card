@@ -42,10 +42,12 @@ body{
 
 .panel.active{
   flex: 5;;
+
 }
 
 .panel.active h3{
   opacity: 1;
+  transition: opacity 0.4s ease-in 0.5s;
 }
 
 @media(max-width:480px){
